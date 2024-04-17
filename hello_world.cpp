@@ -1,9 +1,13 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 void main()
 {
-    cout << "Hello World!"
+    string name;
+    cout << "\nEnter your name, please: ";
+    cin >> name;
+    cout << "Hello World from " << name << "\n";
 
     return 0;
 }
